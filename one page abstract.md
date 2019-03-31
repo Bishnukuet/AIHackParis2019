@@ -9,13 +9,29 @@ PSlove is popular period tracker app that has been helping thousands of women ar
 We have using the app data (Confidential) to find the common irregularities and symptoms women at different age are experiencing based on their given information through the app.
 
 We came up with following observations in short:
-1) We found many NaN values in dob columns. It can be explained that users avoid to inputting their personal inforlmation. So dropping this column is better for the exploratory data.
-2) We can see some nonsense Max value in period_length_initial column. It is not normal if the period last more than 7 days.
-3) There were 2779 missing records that needed to be deleted.
-4) There is no NaN values found in Symptom dataset.
-5) We know that period length is not valid if it is greater than 7. Let plot 3 group of periods to see how many invalid data.
-6) The relation between period length and symptom increased with increase in period lengths.
-7) The number of people who record their data are just a little bit more than half of registration. Maybe, they forget to track their activity after creating an account on application. There should be an automatic notification to remind users keeping to record their data.
 
-The data is incomplete in most of the cases making it very difficult to analyze. To make an effective AI to improve app functionality, more informations are important to track. For example the dietry pattern of the  users having similar symptoms can help to understand the irregularities and remedies better.  After having sufficient data, it is possible to apply matrix factorization based recommender system for bringing in realtime health suggestion for the users having irregularities and severe symptoms.
+      1. We found many NaN values in dob columns. It can be explained that users avoid to inputting their personal inforlmation. So dropping this column is better for the exploratory data.
+
+      2. We can see some nonsense Max value in period_length_initial column. It is not normal if the period last more than 7 days.
+
+      3. There were 2779 missing records that needed to be deleted.
+
+      4. There is no NaN values found in Symptom dataset.
+
+      5. We know that period length is not valid if it is greater than 7. Let plot 3 group of periods to see how many invalid data.
+
+      6. The relation between period length and symptom increased with increase in period lengths.
+
+      7. The number of people who record their data are just a little bit more than half of registration. Maybe, they forget to track their activity after creating an account on application. There should be an automatic notification to remind users keeping to record their data.
+
+      8. The data is incomplete in most of the cases making it very difficult to analyze. To make an effective AI to improve app functionality, more informations are important to track. For example the dietry pattern of the  users having similar symptoms can help to understand the irregularities and remedies better. 
+      
+ # Data Quality improvement
+The most import factor contributing to Machine Learning Model's accuracy is data quality. From result of Exploratory Data Analysis with analytics techniques, we found many invalid data in term of content and format. As we know that Data Wrangling would consume plenty of time and could mislead the outcome of algorithms. To minimize user's errors while inputting their records, we can improve the application where collects real data and feed the model:
+1. Verify the data format
+2. Verify the data content and alert if users input invalid data . 
+For example:
+   Period length should not be less than 2 and should not greater than 7.
+   If users input the age, their age should be greater than 13 and should be less than 50.  
+3. Automatically generate the next first date of period so that users can know clearly about the regularity of period
 
