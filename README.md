@@ -33,7 +33,7 @@ PSlove is popular period tracker app that has been helping thousands of women ar
 - Two ways to see the result:
    1. Run command at the terminal (Unix/MacOS) or windows: python PSLove_EDA.py
    2. Run with Jupyter Notebook:
-     - Lauch Jupyter Notebook
+     - Launch Jupyter Notebook
      - Open PSLove_EDA.ipynp 
      - Click Run button
 4. Abstraction:
