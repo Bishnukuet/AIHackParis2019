@@ -19,3 +19,5 @@ PSlove is popular period tracker app that has been helping thousands of women ar
      - Lauch Jupyter Notebook
      - Open PSLove_EDA.ipynp 
      - Click Run button
+3. Abstraction:
+Open  ABSTRACT.md 
