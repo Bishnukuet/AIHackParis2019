@@ -27,14 +27,14 @@ PSlove is popular period tracker app that has been helping thousands of women ar
  - csv:
    - pip install --user csv
 
-2. Run program:
-- Check out the project 
+3. Run program:
+- Clone the project : git clone https://github.com/Bishnukuet/high_euclid
 - Go to high_euclid directory
 - Two ways to see the result:
-   1. python PSLove_EDA.py
+   1. Run command at the terminal (Unix/MacOS) or windows: python PSLove_EDA.py
    2. Run with Jupyter Notebook:
      - Lauch Jupyter Notebook
      - Open PSLove_EDA.ipynp 
      - Click Run button
-3. Abstraction:
+4. Abstraction:
  - Open  one page abstract.md  file
