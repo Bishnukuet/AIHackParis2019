@@ -26,6 +26,9 @@ We came up with following observations in short:
 
       8. The data is incomplete in most of the cases making it very difficult to analyze. To make an effective AI to improve app functionality, more informations are important to track. For example the dietry pattern of the  users having similar symptoms can help to understand the irregularities and remedies better. 
       
+      9. We also analyzed variation of various pains with days passed from period onset. We see a general trend that pains show maximum during initial days and decrease with days passed. Images showing variation of particular pain(say, Pain[i]) could be found at:
+        high_euclid/Pain[i].png
+      
  # Data Quality improvement
 The most import factor contributing to Machine Learning Model's accuracy is data quality. From result of Exploratory Data Analysis with analytics techniques, we found many invalid data in term of content and format. As we know that Data Wrangling would consume plenty of time and could mislead the outcome of algorithms. To minimize user's errors while inputting their records, we can improve the application where collects real data and feed the model:
 1. Verify the data format
