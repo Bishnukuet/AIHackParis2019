@@ -4,11 +4,11 @@ PSlove is popular period tracker app that has been helping thousands of women ar
 
 # Installation and Reproduction
 1. Sofwtare Requirements:
-Anaconda (recommended)
-Jupyter Notebook >= 5.6
-Python >= 3.0
-Matplotlib >= 2.2
-Numpy >= 1.16
+ - Anaconda (recommended) 
+- Jupyter Notebook >= 5.6
+- Python >= 3.0
+- Matplotlib >= 2.2
+- Numpy >= 1.16
 
 2. Run program:
 - Check out the project 
@@ -16,6 +16,6 @@ Numpy >= 1.16
 - Two ways to see the result:
    1. python PSLove_EDA.py
    2. Run with Jupyter Notebook:
-      Lauch Jupyter Notebook
-     Open PSLove_EDA.ipynp 
-     Click Run button
+     - Lauch Jupyter Notebook
+     - Open PSLove_EDA.ipynp 
+     - Click Run button
