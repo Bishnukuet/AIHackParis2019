@@ -9,6 +9,7 @@ PSlove is popular period tracker app that has been helping thousands of women ar
 - Python >= 3.0
 - Matplotlib >= 2.2
 - Numpy >= 1.16
+- csv >= 0.14
 
 2. Run program:
 - Check out the project 
