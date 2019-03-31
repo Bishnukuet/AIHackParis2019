@@ -11,6 +11,22 @@ PSlove is popular period tracker app that has been helping thousands of women ar
 - Numpy >= 1.16
 - csv >= 0.14
 
+2. Installation
+ - Anaconda
+    - Windows: https://docs.anaconda.com/anaconda/install/windows/
+    - Unix: https://docs.anaconda.com/anaconda/install/linux/
+   - MacOS: https://docs.anaconda.com/anaconda/install/mac-os/
+ - Jupyter Notebook
+   - Run the following command at the Terminal (Mac/Linux) or Command Prompt (Windows): jupyter notebook
+ - Matplotlib:
+   - python -m pip install -U pip
+   - python -m pip install -U matplotlib
+ - Numpy:
+   - python -m pip install -U pip
+   - python -m pip install -U numpy
+ - csv:
+   - pip install --user csv
+
 2. Run program:
 - Check out the project 
 - Go to high_euclid directory
