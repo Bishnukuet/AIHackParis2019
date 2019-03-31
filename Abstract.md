@@ -26,5 +26,3 @@ We came up with following observations in short:
 
       8. The data is incomplete in most of the cases making it very difficult to analyze. To make an effective AI to improve app functionality, more informations are important to track. For example the dietry pattern of the  users having similar symptoms can help to understand the irregularities and remedies better. 
 
-
-
