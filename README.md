@@ -20,4 +20,4 @@ PSlove is popular period tracker app that has been helping thousands of women ar
      - Open PSLove_EDA.ipynp 
      - Click Run button
 3. Abstraction:
-Open  ABSTRACT.md 
+ - Open  ABSTRACT.md file
