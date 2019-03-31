@@ -10,21 +10,21 @@ We have using the app data (Confidential) to find the common irregularities and 
 
 We came up with following observations in short:
 
-      We found many NaN values in dob columns. It can be explained that users avoid to inputting their personal inforlmation. So dropping this column is better for the exploratory data.
+      1. We found many NaN values in dob columns. It can be explained that users avoid to inputting their personal inforlmation. So dropping this column is better for the exploratory data.
 
-      We can see some nonsense Max value in period_length_initial column. It is not normal if the period last more than 7 days.
+      2. We can see some nonsense Max value in period_length_initial column. It is not normal if the period last more than 7 days.
 
-      There were 2779 missing records that needed to be deleted.
+      3. There were 2779 missing records that needed to be deleted.
 
-      There is no NaN values found in Symptom dataset.
+      4. There is no NaN values found in Symptom dataset.
 
-      We know that period length is not valid if it is greater than 7. Let plot 3 group of periods to see how many invalid data.
+      5. We know that period length is not valid if it is greater than 7. Let plot 3 group of periods to see how many invalid data.
 
-      The relation between period length and symptom increased with increase in period lengths.
+      6. The relation between period length and symptom increased with increase in period lengths.
 
-      The number of people who record their data are just a little bit more than half of registration. Maybe, they forget to track their activity after creating an account on application. There should be an automatic notification to remind users keeping to record their data.
+      7. The number of people who record their data are just a little bit more than half of registration. Maybe, they forget to track their activity after creating an account on application. There should be an automatic notification to remind users keeping to record their data.
 
-      The data is incomplete in most of the cases making it very difficult to analyze. To make an effective AI to improve app functionality, more informations are important to track. For example the dietry pattern of the  users having similar symptoms can help to understand the irregularities and remedies better. 
+      8. The data is incomplete in most of the cases making it very difficult to analyze. To make an effective AI to improve app functionality, more informations are important to track. For example the dietry pattern of the  users having similar symptoms can help to understand the irregularities and remedies better. 
 
 
 
