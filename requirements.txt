@@ -1,0 +1,6 @@
+Anaconda (recommended)
+Jupyter Notebook >= 5.6
+Python >= 3.0
+Matplotlib >= 2.2
+Numpy >= 1.16
+csv >= 0.14
